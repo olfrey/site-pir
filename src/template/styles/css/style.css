@@ -1398,6 +1398,17 @@ input, .btn, .slick-slide, textarea {
     text-align: center; }
     .popup_thanks .popup__text {
       margin-top: 35px; }
+  .popup_img {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0; }
+    .popup_img .popup__img {
+      margin-bottom: 20px; }
+    .popup_img .popup__title {
+      text-align: left;
+      padding-left: 35px;
+      padding-right: 35px;
+      margin-bottom: 45px; }
   .popup_large {
     width: 1170px; }
     .popup_large .popup__title {
@@ -1444,7 +1455,26 @@ input, .btn, .slick-slide, textarea {
   .popup__form {
     max-width: 370px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding-left: 35px;
+    padding-right: 35px; }
+    .popup__form_line {
+      max-width: 100%; }
+      .popup__form_line .popup__input {
+        margin-right: 30px;
+        margin-bottom: 0; }
+        .popup__form_line .popup__input .input__wrap {
+          padding-left: 15px;
+          padding-right: 15px; }
+        .popup__form_line .popup__input:nth-of-type(1) {
+          width: 200px; }
+        .popup__form_line .popup__input:nth-of-type(2) {
+          width: 260px; }
+      .popup__form_line .popup__btn {
+        margin-top: 0;
+        height: 53px;
+        width: -webkit-calc(100% - 200px - 260px - 60px);
+        width: calc(100% - 200px - 260px - 60px); }
   .popup__input {
     margin-bottom: 32px; }
   .popup__btn {
