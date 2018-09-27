@@ -1,23 +1,40 @@
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1440px) {
+  .main-wrap {
+    min-width: 1270px; }
   .case {
-    width: 950px; }
+    width: 1200px; }
   .hidden-lg {
     display: block; }
   .hidden-md {
-    display: none; } }
-
-@media screen and (max-width: 992px) {
-  .case {
-    width: 750px; }
-  .hidden-md {
-    display: block; }
-  .hidden-sm {
-    display: none; } }
-
-@media screen and (max-width: 767px) {
-  .case {
-    width: 100%; }
-  .hidden-sm {
-    display: block; }
-  .hidden-xs {
-    display: none; } }
+    display: none; }
+  .slider__content {
+    margin-left: -230px; }
+  .slider__img {
+    margin-right: -635px; }
+  .slider__control-item {
+    padding: 15px; }
+  .services__item {
+    width: 370px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px; }
+  .menu__list {
+    margin-left: -25px; }
+  .halls__content {
+    width: -webkit-calc(100% - 500px);
+    width: calc(100% - 500px); }
+  .halls__photos {
+    width: 500px; }
+  .gifts__img {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto; }
+  .gifts__subtitle {
+    margin-top: 20px; }
+  .advantages__item {
+    margin-left: 30px;
+    margin-right: 30px; }
+  .contacts__wrap {
+    margin-left: -335px; }
+  .footer__logo {
+    margin-right: 50px; } }

@@ -1,6 +1,6 @@
 /* Including fonts */
 @font-face {
-  font-family: "";
-  src: url("../../fonts/");
+  font-family: "Corinthia";
+  src: url("../../fonts/corinthia.ttf");
   font-style: normal;
   font-weight: 400; }

@@ -1,6 +1,9 @@
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1440px)
+	.main-wrap
+		min-width: 1270px
+		
 	.case
-		width: 950px
+		width: 1200px
 	
 	.hidden-lg
 		display: block
@@ -8,28 +11,60 @@
 	.hidden-md
 		display: none
 
+	.slider
+		&__content
+			margin-left: -230px
+		&__img
+			margin-right: -635px
+		&__control
+			&-item
+				padding: 15px
 
-	
-@media screen and (max-width: 992px)
-	.case
-		width: 750px
+			&-desc
+				// display: none
+			
+			
+		
+	.services
+		&__item
+			width: 370px
+			padding-left: 40px
+			padding-right: 40px
+			margin-bottom: 30px
 
-	.hidden-md
-		display: block		
-	
-	.hidden-sm
-		display: none
+	.menu
+		&__list
+			margin-left: -25px
 
 
-	
-@media screen and (max-width: 767px)
-	.case
-		width: 100%
+	.halls
+		&__content
+			width: calc(100% - 500px)
 
-	.hidden-sm
-		display: block
-	
-	.hidden-xs
-		display: none
-	
+		&__photos
+			width: 500px
+			
+			
+	.gifts
+		&__img
+			width: 180px
+			margin-left: auto
+			margin-right: auto
 
+		&__item
+
+		&__subtitle
+			margin-top: 20px
+
+	.advantages
+		&__item
+			margin-left: 30px
+			margin-right: 30px
+			
+	.contacts
+		&__wrap
+			margin-left: -335px
+
+	.footer
+		&__logo
+			margin-right: 50px
